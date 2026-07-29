@@ -58,21 +58,21 @@ module.exports = {
      * @type {string}
      * @default "+923237045919"
      */
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '+923237045919',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '+212617503205',
     
     /** 
      * @description Display name of the bot
      * @type {string}
      * @default "Arslan MD Mini"
      */
-    BOT_NAME: "Arslan MD Mini",
+    BOT_NAME: "Evil Imranos Bot",
     
     /** 
      * @description Footer text for bot messages
      * @type {string}
      * @default "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ"
      */
-    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴀʀꜱʟᴀɴ-ᴍᴅ',
+    BOT_FOOTER: '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Ɛvıl ımranos',
     
     /** 
      * @description Bot work mode
