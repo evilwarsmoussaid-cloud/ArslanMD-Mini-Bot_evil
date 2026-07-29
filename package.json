@@ -1,7 +1,7 @@
 {
-  "name": "arslan-bot",
+  "name": "evil-imranos-bot",
   "version": "2.0.0",
-  "description": "WhatsApp Bot Base Created By ArslanMD Official",
+  "description": "WhatsApp Bot Base Created By Evil Imranos Official",
   "main": "index.js",
   "engines": {
     "node": "20.x"
