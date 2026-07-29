@@ -28,23 +28,23 @@ cmd({
             menuText += grouped[cat].map(c => `💫 ${c}`).join("\n") + "\n";
         }
 
-        const time = moment().tz("Africa/Kampala").format("HH:mm:ss");
-        const date = moment().tz("Africa/Kampala").format("dddd, MMMM Do YYYY");
+        const time = moment().tz("North Africa/Morrocco").format("HH:mm:ss");
+        const date = moment().tz("North Africa/Morrocco").format("dddd, MMMM Do YYYY");
 
         const caption = `
-╭━━━《 *ᴀʀꜱʟᴀɴ-ᴍᴅ* 》━━━┈⊷
+╭━━━《 *Evil Imranos Bot* 》━━━┈⊷
 ┃ ✦╭─────────────┈⊷
 ┃ ✦│▸ Total Commands : *${totalCommands}*
 ┃ ✦│▸ Time           : ${time}
 ┃ ✦│▸ Date           : ${date}
-┃ ✦│▸ Platform       : arslanmd.xo.je
+┃ ✦│▸ Platform       : evil.imranos.xo.je
 ┃ ✦╰─────────────┈⊷
 ╰━━━━━━━━━━━━┈⊷
 ${menuText}
 `.trim();
 
         await conn.sendMessage(m.chat, {
-            image: { url: "https://files.catbox.moe/prkkzj.png" },
+            image: { url: "https://i.postimg.cc/NfYh2zCq/roblox-avatar.png" },
             caption,
             contextInfo: {
                 forwardingScore: 999,
@@ -52,7 +52,7 @@ ${menuText}
                 mentionedJid: [m.sender],
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363348739987203@newsletter",
-                    newsletterName: "𝘼𝙧𝙨𝙡𝙖𝙣-𝙈𝘿 𝙈𝙞𝙣𝙞 𝙑²",
+                    newsletterName: "Evil Imranos Bot",
                     serverMessageId: 2,
                 },
             },
